@@ -26,7 +26,7 @@ $('#logoutBtn').click(function(){
 
 //验证是否登录
 var sessionId=$.cookie('PHPSESSID');
-console.log(location.pathname);
+// console.log(location.pathname);
 if(!sessionId&&location.pathname!='/main/login'){
   location.href='/main/login';
   }
