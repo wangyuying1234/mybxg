@@ -1,4 +1,7 @@
 define(['jquery','template','bootstrap'],function($,template){
+var pathname=location.pathname;
+var ret=$('.nav a').size();
+console.log(ret);
 //请求后台接口获取列表数据
 $.ajax({
    type:'get',
